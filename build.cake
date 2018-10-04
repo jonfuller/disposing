@@ -61,7 +61,7 @@ Task("package-push")
     .Does(() =>
     {
         var version = XmlPeek("src/Disposing/Disposing.csproj", "/Project/PropertyGroup/Version");
-        var package = $"./artifacts/Disposing.{version}.nupkg";
+        var package = $"./src/Disposing/artifacts/Disposing.{version}.nupkg";
 
         NuGetPush(package, new NuGetPushSettings {
             Source = nugetSource,

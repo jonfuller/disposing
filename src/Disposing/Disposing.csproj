@@ -1,7 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <FileVersion>$(Version)</FileVersion>
+    <Authors>Jon Fuller</Authors>
+    <Description>Helpers for being more effective with IDisposable in C#. (Create an IDisposable implementation with a lambda. Return from a "using" statement.)</Description>
+    <Copyright>Copyright © 2018 Jon Fuller</Copyright>
+    <Title>Helpers for being more effective with IDisposable in C#.</Title>
+    <PackageId>Disposing</PackageId>
+    <PackageVersion>$(Version)</PackageVersion>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>disposable idisposable helper</PackageTags>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/jonfuller/disposing/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/jonfuller/disposing</PackageProjectUrl>
+    <PackageOutputPath>artifacts</PackageOutputPath>
   </PropertyGroup>
 
 </Project>
